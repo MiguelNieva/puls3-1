@@ -1,18 +1,18 @@
 var MenuView = Backbone.View.extend({
 
 	template: Handlebars.compile(
-		'<ul>' +
+		'<ul class="zero">' +
+		'<a href="#">' +
+		'<button class="btn btn-inverse marginspecial">' +
+		'Inicio' +
+		'</button>' +
+		'</a>' +
 		'<a href="#/menu-items/new">' +
-		'<button class="btn btn-inverse">' +
+		'<button class="btn btn-inverse marginspecial">' +
 		'Nuevo' +
 		'</button>' +
 		'</a>' +
-		'<a href="#">' +
-		'<button class="btn btn-inverse">' +
-		'Listas' +
-		'</button>' +
-		'</a>' +
-		'{{#each models}}<a href="#/menu-items/{{attributes.id}}"><button class="btn btn-info">{{attributes.name}}</button></a>{{/each}}' +
+		'{{#each models}}<a href="#/menu-items/{{attributes.id}}"><button class="btn btn-info marginspecial">{{attributes.name}}</button></a>{{/each}}' +
 		'</ul>' +
 		'</div>'
 	),

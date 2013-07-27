@@ -403,14 +403,13 @@ a:visited {
 }
 body {
   color: #333;
-  font-family: "Arial";
+  font-family: 'Open Sans', sans-serif;
   font-size: 16px;
   text-align: left;
+  font-weight: 300;
 }
 header {
-  margin: 0;
-  padding: 0.5em;
-  width: 100%;
+  padding: 20px 12% 0 8%;
   background-color: #fafafa;
   border-bottom: 1px solid #d4d4d4;
 
@@ -428,13 +427,20 @@ header figure#logo img
 header img {
   width: 100%;
 }
-header h1 {
-  font-size: 24px;
-  font-weight: normal;
-  margin: 0;
-  padding: 0;
+header h1 
+{
+font-size: 24px;
+font-weight: 300;
+margin: 0;
+padding: 0;
+line-height: 1;
 }
 
+.zero
+{
+  margin:0;
+  padding:0;
+}
 
 
 header #avatar,
@@ -445,14 +451,23 @@ header #titulo_nav {
 }
 header #avatar,
 header #logo {
-  width: 4.5%;
+  width: 17.5%;
+  display: inline-block;
 }
+
+header #avatar
+{
+    width: 34%;
+    
+  
+}
+
 header #avatar a {
   display: block;
   text-decoration: none;
 }
 header #titulo_nav {
-  width: 85%;
+  width: 70%;
   text-align: center;
 }
 
@@ -483,12 +498,26 @@ div.herramientas a
 
 div.lista
 {
-  margin: 50px 5%;
+  margin: 30px 0% 50px;
 }
 
 div.lista div ul a
 {
-  margin: 0 10px;
+  margin: 0 4px 0px;
+}
+
+div.principal
+{
+width: 65%;
+display: inline-block;
+}
+
+div.titulo
+{
+  display: inline-block;
+  vertical-align: bottom;
+  margin: 0 0 0 20px;
+  padding: 0;
 }
 
 img.mini
@@ -498,7 +527,50 @@ img.mini
 
 
 
+
+figure#avatar img.mike
+{
+border-radius: 10px;
+width: 29%;
+float: right;
+}
+
 div.container
 {
   margin-top: 3em;
+}
+
+button.marginspecial
+{
+margin: 5% 0 0 0;
+}
+
+div.container ul li
+{
+  list-style-type: none;
+    width: 31%;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+div.container figure
+{
+ display: inline-block;
+    width: 55%;
+    margin: 0% 0;
+    vertical-align: top; 
+}
+
+div.container div.informacion
+{
+  width: 100%;
+    display: inline-block;
+}
+
+
+div.container h4
+{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
 }
