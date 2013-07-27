@@ -5,7 +5,7 @@ var express = require('express'),
 var app = express()
   .use(express.bodyParser())
   .use(express.static('public'));
-
+  
 app.get('/items', function  (req, res) {
   res.json(items);
 });
