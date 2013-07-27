@@ -61,6 +61,6 @@ app.get('/*', function  (req, res) {
   res.json(404, {status: 'not found'});
 });
 
-http.createServer(app).listen(4000, function () {
-  console.log("Server ready at http://localhost:4000");
+http.createServer(app).listen(31730, function () {
+  console.log("Server ready at http://localhost:31730");
 });
