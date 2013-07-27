@@ -6,7 +6,7 @@ var MenuItemDetails = Backbone.View.extend({
 	'<img src="{{imagepath}}" class="img-polaroid" />' +
 	'</div>'+
 	'<p></p>' +
-	'<button type="button" class="btn btn-danger confirm-delete">Delete</button>'
+	'<button type="button" class="btn btn-danger confirm-delete">Eliminar</button>'
 ),
 
 	initialize: function  () {
